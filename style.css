@@ -254,7 +254,19 @@ nav {
   left: -50px; /* half outside */
   top: 50%;
   transform: translateY(-50%);
-  background: url(Images/designmaker\ \(2\).png);
+  background: url(Images/designmaker2.png);
+  background-color: gray;
+  z-index: 1;
+}
+
+.right-preview {
+  position: absolute;
+  width: 250px;
+  height: 650px;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(Images/designmaker2.png);
   background-color: gray;
   z-index: 1;
 }
@@ -386,6 +398,11 @@ nav {
 .brides {
   height: 823px;
   width: 100%;
+  position: relative;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 10px;
+  padding: 20px 0;
 }
 
 .brides h2 {
@@ -396,15 +413,6 @@ nav {
   margin-top: 5%;
   text-align: center;
   white-space: nowrap;
-}
-
-.brides {
-  position: relative;
-  width: 100%;
-  max-width: 1920px;
-  height: 100vh;
-  margin: 0 auto;
-  padding: 20px 0;
 }
 
 .brides h2 {
