@@ -259,18 +259,6 @@ nav {
   z-index: 1;
 }
 
-.right-preview {
-  position: absolute;
-  width: 250px;
-  height: 650px;
-  right: -50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: url(images/designmaker\ \(2\).png);
-  background-color: gray;
-  z-index: 1;
-}
-
 /* the couture process */
 .couture-process {
   width: 100%;
