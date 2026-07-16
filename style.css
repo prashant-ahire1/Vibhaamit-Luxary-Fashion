@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
@@ -884,8 +885,10 @@ nav {
 
   .mens-content h1,
   .women-content h1 {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 20px;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   .mens-content button,
@@ -1118,6 +1121,10 @@ nav {
     font-size: 20px;
     padding: 10px 10px;
   }
+
+  .footer-contact{
+    white-space: nowrap;
+  }
 }
 
 /* tablet */
@@ -1266,5 +1273,85 @@ nav {
     width: 220px;
     height: 48px;
     font-size: 18px;
+  }
+}
+
+/* laptop Responsive  */
+@media (max-width: 1440px) {
+
+  .footer{
+    padding:70px 60px;
+  }
+
+  .footer-container{
+    max-width:100%;
+    gap:50px;
+    justify-content:space-between;
+    align-items:flex-start;
+  }
+
+  .footer-logo{
+    width:34%;
+  }
+
+  .footer-logo img{
+    width:150px;
+    margin-bottom:25px;
+  }
+
+  .footer-logo p{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:30px;
+  }
+
+  .social-icons{
+    width:auto;
+    gap:15px;
+  }
+
+  .social-icons a{
+    width:48px;
+    height:48px;
+    font-size:20px;
+  }
+
+  .footer-links{
+    width:18%;
+    margin-top:10px;
+  }
+
+  .footer-links h3{
+    font-size:22px;
+    margin-bottom:25px;
+  }
+
+  .footer-links ul li{
+    margin-bottom:18px;
+  }
+
+  .footer-links ul li a{
+    font-size:18px;
+  }
+
+  .footer-contact{
+    width:25%;
+    margin-top:10px;
+  }
+
+  .footer-contact h3{
+    font-size:22px;
+    margin-bottom:25px;
+  }
+
+  .footer-contact p{
+    font-size:17px;
+    gap:12px;
+    margin-bottom:20px;
+    word-break:break-word;
+  }
+
+  .footer-contact i{
+    font-size:18px;
   }
 }
