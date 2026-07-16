@@ -6,6 +6,8 @@
 }
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -300,7 +302,6 @@ nav {
   margin-bottom: 40px;
   text-transform: uppercase;
 }
-
 /* Accordion */
 .accordion {
   height: 900px;
@@ -992,6 +993,7 @@ nav {
 
   .brides {
     padding: 40px 0;
+    overflow: hidden;
   }
 
   .brides h2 {
@@ -1004,6 +1006,8 @@ nav {
 
   .slider {
     height: 320px;
+    overflow: hidden;
+    position: relative;
   }
 
   .slider-images img.active {
